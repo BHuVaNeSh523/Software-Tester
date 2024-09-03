@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User submits the contact us form successfully",
+        "description": "",
+        "id": "contact-us-form-submission;user-submits-the-contact-us-form-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21811487100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "project.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4711073600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to the About Us page",
+            "match": {
+              "location": "project.the_user_navigates_to_the_About_Us_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 644038600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user scrolls down and selects the Hotel, Office, and Healthcare tabs",
+            "match": {
+              "location": "project.the_user_scrolls_down_and_selects_tabs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2737337300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to the Our Services page",
+            "match": {
+              "location": "project.the_user_navigates_to_the_Our_Services_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3724442300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to the Contact Us page",
+            "match": {
+              "location": "project.the_user_navigates_to_the_Contact_Us_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127321300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user fills out the contact form",
+            "match": {
+              "location": "project.the_user_fills_out_the_contact_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156889800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user submits the contact form",
+            "match": {
+              "location": "project.the_user_submits_the_contact_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see a confirmation message",
+            "match": {
+              "location": "project.the_user_should_see_a_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Us Form Submission",
+    "description": "",
+    "id": "contact-us-form-submission",
+    "keyword": "Feature",
+    "uri": "src/test/resources/project.feature",
+    "tags": []
+  }
+]

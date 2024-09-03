@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="34.917499">
+<testcase classname="Contact Us Form Submission" name="User submits the contact us form successfully" time="34.917499">
+<system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user navigates to the About Us page................................passed
+And the user scrolls down and selects the Hotel, Office, and Healthcare tabs.passed
+And the user navigates to the Our Services page.............................passed
+And the user navigates to the Contact Us page...............................passed
+And the user fills out the contact form.....................................passed
+And the user submits the contact form.......................................passed
+Then the user should see a confirmation message.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
